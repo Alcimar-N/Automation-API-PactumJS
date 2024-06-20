@@ -1,0 +1,21 @@
+{
+  "name": "projeto-pactum",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/*.js --reporter mochawesome "
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "mochawesome": "^7.1.3",
+    "open": "^10.1.0",
+    "pactum": "^3.6.8"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "faker": "^5.5.3"
+  }
+}
